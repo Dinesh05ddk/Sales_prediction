@@ -45,8 +45,9 @@ cd sales-forecasting
 ```
 
 3. Install the required dependencies:
+This project is done in Jupyter Notebook
 ```
-pip install -r requirements.txt
+pip install lightgbm
 ```
 
 ## Usage
