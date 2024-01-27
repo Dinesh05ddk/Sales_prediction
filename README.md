@@ -12,7 +12,7 @@ This project aims to predict future sales using regression techniques in machine
 - [Usage](#usage)
 - [Results](#results)
 - [Contributing](#contributing)
-- [License](#license)
+  
 
 ## Introduction
 
@@ -52,18 +52,7 @@ pip install lightgbm
 
 ## Usage
 
-Once the project and dependencies are installed, you can train the model and make predictions using the provided scripts. Here's a basic usage example:
-
-1. Train the model:
-```
-python train.py --data_path data/sales_data.csv --model_type regression
-```
-
-2. Make predictions:
-
-```
-python predict.py --model_path models/sales_regression_model.pkl --input_data data/new_data.csv
-```
+Once the project and dependencies are installed,
 
 
 Replace `data/sales_data.csv` with the path to your dataset and `data/new_data.csv` with the path to new data for prediction.
@@ -76,6 +65,4 @@ The performance of the sales forecasting model is evaluated based on metrics suc
 
 Contributions to this project are welcome! If you have suggestions for improvements, bug fixes, or new features, feel free to open an issue or submit a pull request.
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
