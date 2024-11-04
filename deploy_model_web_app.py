@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 st.title("Sales Prediction Model")
 
 # Specify model path
-model_path = './trained_sales_model.pkl'
+model_path = 'trained_sales_model.pkl'
 st.write("Loading model from:", model_path)
 
 # Load the model
